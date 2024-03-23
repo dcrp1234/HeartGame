@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tile Board</title>
+  <style>
+    body {
+      background-image: url("pink.png");
+      background-position: center;
+    }
+
+    .tile-container {
+      display: grid;
+      grid-template-columns: repeat(6, 80px);
+      gap: 5px;
+      justify-content: center;
+    }
+
+    .tile {
+      width: 80px;
+      height: 80px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .tile img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .score {
+      background-color: #000;
+      color: white;
+      text-align: center;
+    }
+    
+    .selected {
+      border: 2px solid blue; /* Add a border to visually indicate the selected tile */
+    }
+  </style>
+</head>
+<body>
+  <div class="score">0</div>
+  <div class="tile-container" id="tile-container"></div>
+  <script src="t2.js">
+  </script>
+</body>
+</html>
