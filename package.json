@@ -4,12 +4,23 @@
   "description": "",
   "main": "t2.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcrp1234/HeartGame.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dcrp1234/HeartGame/issues"
+  },
+  "homepage": "https://github.com/dcrp1234/HeartGame#readme"
 }
